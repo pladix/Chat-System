@@ -1,0 +1,18 @@
+.toast-success { background-color: #10b981 !important; }
+.toast-error { background-color: #ef4444 !important; }
+.toast-info { background-color: #3b82f6 !important; }
+.toast-warning { background-color: #f59e0b !important; }
+
+.toast-success::before,
+.toast-error::before,
+.toast-info::before,
+.toast-warning::before {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    margin-right: 10px;
+}
+
+.toast-success::before { content: "\f00c"; }
+.toast-error::before { content: "\f00d"; }
+.toast-info::before { content: "\f05a"; }
+.toast-warning::before { content: "\f071"; }
